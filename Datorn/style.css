@@ -1,0 +1,60 @@
+body{
+
+width: 100vw;
+height: 100vh;
+margin: 0px;
+
+
+
+}
+header{
+    grid-area: h;
+    background-color:grey;
+    border-radius: 10px;
+    font-size: 400%;
+    font-family: cursive
+    
+}
+nav{
+    grid-area: n;
+background-color:black;
+border-radius: 10px;
+font-size: 300%;
+color: green;
+}
+aside{
+    grid-area: a;
+background-color: grey;
+font-size: 120%;
+}
+main{
+    grid-area: m;
+background-color: whitesmoke;
+
+}
+footer{
+    grid-area: f;
+    background-color: green;
+    font-size: 150%;
+}
+
+#wrapper{
+height: 100%;
+width: 100%;
+display: grid;
+grid-template-columns: 40% 60%;
+grid-template-rows: 15% 15% 55% 15%;
+
+grid-template-areas: 
+"h h"
+"n n"
+"a m"
+"f f";
+
+}
+
+img{
+   
+    width: 600px;
+    height: 524px
+}

@@ -1,0 +1,24 @@
+
+
+div{
+
+height: 800px;
+width: 800px;
+
+}
+#ruta1{
+
+background-color: brown;
+
+}
+
+#ruta2{
+
+background-color: chocolate;
+
+}
+
+#container{
+display: flex
+
+}
