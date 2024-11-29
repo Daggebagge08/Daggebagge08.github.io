@@ -25,7 +25,7 @@ color: green;
 aside{
     grid-area: a;
 background-color: grey;
-font-size: 120%;
+font-size: 112%;
 }
 main{
     grid-area: m;
@@ -56,5 +56,5 @@ grid-template-areas:
 img{
    
     width: 600px;
-    height: 524px
+    height: 55vh
 }
